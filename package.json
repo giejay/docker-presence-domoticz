@@ -1,0 +1,17 @@
+{
+  "name": "presence-domoticz",
+  "version": "1.0.0",
+  "description": "Sent presence detection of bluetooth devices to domoticz",
+  "main": "server.js",
+  "dependencies": {
+    "mqtt": "^2.18.2",
+    "properties-parser": "^0.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
